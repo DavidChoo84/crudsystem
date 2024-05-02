@@ -46,6 +46,13 @@ public class MainPage extends JFrame {
 				dispose();
 			}
 		});
+		
+		Register.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				RegisterPage registerpage = new RegisterPage();
+				dispose();
+			}
+		});
 	}
 	
 	public static void main(String[] args) {
