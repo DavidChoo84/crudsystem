@@ -78,7 +78,7 @@ public class LoginPage extends JFrame {
                 loadNextPage(username);
                 dispose();
             } 
-            else if(usernameField.getText().isEmpty() || usernameField.getText().isEmpty()){
+            else if(usernameField.getText().isEmpty() || passwordField.getText().isEmpty()){
             	JOptionPane.showMessageDialog(this, "Login failed! Please fill in the missing field.");
             }
             else {
